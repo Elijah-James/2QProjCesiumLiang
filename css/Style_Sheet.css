@@ -1,0 +1,560 @@
+/* External Style Sheet */
+
+/* this part is for the navbar */
+.tnavbar{
+  margin: 0;
+  align-items:center;
+  background-image: linear-gradient(navy, #66CCFF);
+  overflow: hidden;
+  max-height: 50px;
+}
+
+.tnavbar a{
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+}
+
+.tnavbar a:hover{
+  color: black;
+}
+
+.tnavbar a:after{
+  border-top: .1em solid white;
+  content: "";
+  position: absolute;
+    right: 100%;
+    bottom: .14em;
+    left: 0;
+  transition: right .4s;
+}
+
+a:hover:after{
+  right: 0;
+}
+
+.tnavbar a.active{
+  color: black;
+  border-top: .1em solid white;
+}
+
+/* navbar pictures */
+.left_neko{
+  float: left;
+  height: 45px;
+  width: 50px;
+}
+
+.tw{
+  background: url("../images/sms.png") no-repeat -21px -51px;
+  width: 32px;
+  height: 32px;
+}
+
+.tw:hover{
+  background: url("../images/sms.png") no-repeat -21px -17px;
+  width: 32px;
+  height: 32px; 
+}
+
+.yt{
+  background: url("../images/sms.png") no-repeat -57px -51px;
+  width: 32px;
+  height: 32px;
+}
+
+.yt:hover{
+  background: url("../images/sms.png") no-repeat -57px -17px;
+  width: 32px;
+  height: 32px;
+}
+
+.in{
+  background: url("../images/sms.png") no-repeat -92px -51px;
+  width: 32px;
+  height: 32px;
+}
+
+.in:hover{
+  background: url("../images/sms.png") no-repeat -92px -17px;
+  width: 32px;
+  height: 32px;
+}
+
+.right_neko{
+  transform: scaleX(-1);
+  height: 45px;
+  width: 50px;
+}
+
+/* additional pictures located in the home page/index */
+.base{
+  position: absolute;
+    top: 8%;
+    right: 5%;
+  margin-top: 50px;
+  height: 420px;
+  width: auto;
+}
+
+.fish{
+  position: absolute;
+    top: 48%;
+    right: 22%;
+  transform: scaleX(-1);
+  max-height: 200px;
+  width: auto;
+}
+
+/* the title */
+.title{
+  position: absolute;
+    top: 8%;
+    left: 2%;
+  font-size: 120px;
+  font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', sans-serif;
+  color: black;
+  font-weight: 700;
+  font-style: italic;
+  text-align: left;
+  background-color:transparent;
+  overflow: hidden;
+}
+
+/* this part is for the body, which is essentially all of the written parts */
+body{
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:white;
+  font-size: 20px;
+}
+
+/* the formatting of the footer for all the pages */
+.foot{
+  position: absolute;
+    left: 2%;
+    bottom:0;
+}
+
+.f2{
+  color: wheat;
+}
+
+.f_src{
+  text-decoration: none; 
+  color: skyblue; 
+  background-image: none;
+}
+
+.f_src_f{
+  text-decoration: none; 
+  color: red; 
+  background-image: none;
+}
+
+.f_src_af{
+  text-decoration: none; 
+  color: teal; 
+  background-image: none;
+}
+
+.music{
+  position: fixed;
+    top: 92%;
+    left: 78%;
+}
+
+.bg{
+  margin: 0; 
+  height: 100%; 
+  width: 100%;
+}
+
+/* the formatting of the 1st part of page 2 */
+.p2i1h{
+  position:absolute;
+    top: 11%;
+    left: 2%;
+  padding: 2px 2px;
+  width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.p2i1{
+  position: absolute;
+    top: 17%;
+    left: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+/* the picture for the 1st bit of information */
+.PONOS{
+  position: absolute;
+    top: 17%;
+    right: 2%;
+  max-height: 185px;
+  width: auto;
+  border: 2px solid black;
+}
+
+/* the formatting of the 2nd part of page 2 */
+.p2i2h{
+  position:absolute;
+    top: 53%;
+    right: 2%;
+  padding: 2px 2px;
+  width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.p2i2{
+  position: absolute;
+    top: 59%;
+    right: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+/* the picture for the 2nd bit of information */
+.BC{
+  position: absolute;
+    top: 59%;
+    left: 2%;
+  max-height: 185px;
+  width: auto;
+  border: 2px solid black;
+}
+
+/* the formatting of the 1st part of page 3 */
+.p3i1{
+  position: absolute;
+    top: 18%;
+    left: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+.ns{
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+/* the picture of the Normal cats I have */
+.Norm{
+  position: absolute;
+    top: 9%;
+    right: 2%;
+  max-height: 120px;
+  width: auto;
+  border: 2px solid black;
+}
+
+/* the picture of the Normal cats I have */
+.Spec{
+  position: absolute;
+    top: 27%;
+    right: 2%;
+  max-height: 207px;
+  width: auto;
+  border: 2px solid black;
+}
+
+/* the formatting of the 2nd part of page 3 */
+.p3i2{
+  position: absolute;
+    top: 59%;
+    right: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+/* the pictures of Bahamut cat */
+.b1{
+  position: absolute;
+    top: 56%;
+    left: 2%;
+  max-height: 140px;
+  width: auto;
+  border: 2px solid black;
+}
+
+.b2{
+  position: absolute;
+    top: 69.2%;
+    left: 13%;
+  max-height: 140px;
+  width: auto;
+  border: 2px solid black;
+}
+
+/* the formatting of the 1st part of page 4 */
+.p4i1{
+  position: absolute;
+    top: 16%;
+    left: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+/* the picture of The Ultra Souls Banner */
+.banner{
+  position: absolute;
+    top: 20%;
+    right: 2%;
+  max-height: 110px;
+  width: auto;
+}
+
+/* the formatting of the 2nd part of page 4 */
+.p4i2{
+  position: absolute;
+    top: 52%;
+    right: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+/* the pictures of Bahamut cat */
+.rwl{
+  position: absolute;
+    top: 50%;
+    left: 2%;
+  max-height: 115px;
+  width: auto;
+  border: 2px solid black;
+}
+
+.rwol{
+  position: absolute;
+    top: 71%;
+    left: 2%;
+  max-height: 91px;
+  width: auto;
+  border: 2px solid black;
+}
+
+/* the formatting of the 1st part of page 5 */
+.p5i1{
+  position: absolute;
+    top: 15%;
+    left: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  font-size: 17px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+.line1{
+  position: absolute;
+    top: 14%;
+    right: 2%;
+  max-height: 75px;
+  width: auto;
+  border: 2px solid black;
+}
+
+.line2{
+  position: absolute;
+    top: 26%;
+    right: 2%;
+  max-height: 75px;
+  width: auto;
+  border: 2px solid black;
+}
+
+.line3{
+  position: absolute;
+    top: 38%;
+    right: 2%;
+  max-height: 74.5px;
+  width: auto;
+  border: 2px solid black;
+}
+
+/* the formatting of the 2nd part of page 5 */
+.p5i2{
+  position: absolute;
+    top: 56%;
+    right: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  font-size: 17px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+.chaps{
+  position: absolute;
+    top: 62%;
+    left: 2%;
+  max-height: 115px;
+  width: auto;
+  border: 2px solid black;
+}
+
+/* the formatting of the 1st part of page 6 */
+.p6i1{
+  position: absolute;
+    top: 16%;
+    left: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+.vid1{
+  position:absolute;
+    top: 18.5%;
+    right: 2%;
+}
+
+/* the formatting of the 2nd part of page 6 */
+.p6i2{
+  position: absolute;
+    top: 56%;
+    right: 2%;
+  padding: 2px 2px;
+  max-width: 900px;
+  height: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  color: black;
+}
+
+.vid2{
+  position:absolute;
+    top: 56.2%;
+    left: 2%;
+}
+
+/* the formatting for the images section of the sources */
+.Src1H{
+  position:absolute;
+    top: 10%;
+    left: 2%;
+  padding: 2px;
+  width: auto;
+  height: auto;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+.Src1{
+  position: absolute;
+    top: 16%;
+    left: 2%;
+  padding: 2px;
+  max-width: 600px;
+  max-height: 500px;
+  text-align: justify;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  overflow: auto;
+}
+
+/* the formatting for the information section of the sources */
+.Src2H{
+  position:absolute;
+    top: 10%;
+    right: 37.85%;
+  padding: 2px;
+  width: auto;
+  height: auto;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+.Src2{
+  position: absolute;
+    top: 16%;
+    right: 2%;
+  padding: 2px;
+  width: 600px;
+  height: auto;
+  text-align: justify;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  overflow: auto;
+}
+
+.Afterword {
+  color: black;
+  text-align: justify;
+  text-justify: inter-word;
+  position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
